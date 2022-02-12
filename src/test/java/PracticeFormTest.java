@@ -45,7 +45,7 @@ public class PracticeFormTest {
         $("#hobbiesWrapper").$(byText("Music")).click();
 
         $("#uploadPicture").uploadFromClasspath("./img/1.png");
-        final SelenideElement selenideElement = $("#currentAddress").setValue("Other address 2");
+        $("#currentAddress").setValue("Other address 2");
 
        $("#state").scrollTo();
 
